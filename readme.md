@@ -1,9 +1,8 @@
 <p align="center">
-    <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
     <h2 align="center">Dawn-Sexy</h2>
 </p>
 
-<p align="center">Terminal.Sexy Dawn based theme</p>
+<p align="center">A theme based on [terminal.sexy](https://terminal.sexy/) "dawn"</p>
 
 
 ## Getting started
@@ -13,24 +12,19 @@ Install `kasmilus/dawn-sexy.nvim` using your favourite plugin manager:
 **paq-nvim**
 
 ```lua
-{ "kasmilus/dawn-sexy.nvim", as = "dawn-sexy" }
+{ "Kasmilus/Dawn-Sexy.nvim", as = "dawn-sexy" }
 ```
 
 **lazy.nvim**
 
 ```lua
   {
-    'kasmilus/dawn-sexy.nvim',
+    'Kasmilus/Dawn-Sexy.nvim',
     lazy = false,
     as = 'dawn-sexy',
     config = function()
       require('dawn-sexy').setup({
         dim_inactive_windows = true,
-        enable = {
-          terminal = true,
-          legacy_highlights = true, -- Improve compatibility for previous versions of Neovim
-          migrations = true,        -- Handle deprecated options automatically
-        },
       })
       vim.cmd('colorscheme dawn-sexy')
     end
@@ -134,7 +128,7 @@ We welcome and appreciate contributions of any kind. Create an issue or start a 
 
 Many thanks to [Rose Pine](https://github.com/rose-pine/) creators. All code from this repo is a fork of rose-pine but with updated colors.
 
-Theme colors are based on [terminal.sexy](https://terminal.sexy/#GBsgm5CBNTU1dEtAbWE3dlY2YVZLa0pJQ1hhs7OzX19feFhQb2dJd2BJaWBXb1pZUl9mzc3N) "Dawn" theme, made by Escapist.
+Theme colors are based on [terminal.sexy](https://terminal.sexy/) "Dawn" theme, made by Escapist.
 
 ## License
 
