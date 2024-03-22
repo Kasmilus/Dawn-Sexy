@@ -2,7 +2,7 @@
     <h2 align="center">Dawn-Sexy</h2>
 </p>
 
-<p align="center">A theme based on [terminal.sexy](https://terminal.sexy/) "dawn"</p>
+<p align="center">A Neovim theme based on  <a href="https://terminal.sexy/">terminal.sexy</a> Dawn</p>
 
 
 ## Getting started
