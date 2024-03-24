@@ -17,7 +17,7 @@ local variants = {
 		foam = "#525F66", -- typenames/namespaces
 		iris = "#6F5A59", -- parameters/macros
 		--Highlight
-		highlight_low = "#FFFFFF", -- Unused
+		highlight_low = "#22272f", -- Very subtle highlights
 		highlight_med = "#22272f", -- Visual mode
 		highlight_high = "#6B4A49", -- ??
 		none = "NONE",
@@ -38,7 +38,7 @@ local variants = {
 		foam = "#677881", -- typenames/namespaces
 		iris = "#806866", -- parameters/macros
 		--Highlight
-		highlight_low = "#FFFFFF", -- Unused
+		highlight_low = "#22272f", -- Very subtle highlights
 		highlight_med = "#333A44", -- Visual mode
 		highlight_high = "#6B4A49", -- ??
 		none = "NONE",
@@ -60,7 +60,7 @@ local variants = {
 		foam = "#809099", -- typenames/namespaces
 		iris = "#937978", -- parameters/macros
 		--Highlight
-		highlight_low = "#FFFFFF", -- Unused
+		highlight_low = "#22272f", -- Very subtle highlights
 		highlight_med = "#39414D", -- Visual mode
 		highlight_high = "#755150", -- ??
 		none = "NONE",
