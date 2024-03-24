@@ -7,27 +7,6 @@ local variants = {
 		surface = "#1b1f25",
 		overlay = "#1d2127",
 		muted = "#525F66", -- borders, line numbers etc
-		subtle = "#524c44", -- Comments
-		text = "#8f8372", -- Variables
-		-- Special
-		love = "#6B4A49",
-		gold = "#6D6137", -- strings/values
-		rose = "#6B4A49", -- functions
-		pine = "#435861", -- keywords
-		foam = "#525F66", -- typenames/namespaces
-		iris = "#6F5A59", -- parameters/macros
-		--Highlight
-		highlight_low = "#22272f", -- Very subtle highlights
-		highlight_med = "#22272f", -- Visual mode
-		highlight_high = "#6B4A49", -- ??
-		none = "NONE",
-	},
-	medium = {
-		_nc = "#16191e",
-		base = "#181B20",
-		surface = "#1b1f25",
-		overlay = "#1d2127",
-		muted = "#525F66", -- borders, line numbers etc
 		subtle = "#7C7162", -- Comments
 		text = "#9E9486", -- Variables
 		-- Special
@@ -43,6 +22,28 @@ local variants = {
 		highlight_high = "#6B4A49", -- ??
 		none = "NONE",
 	},
+	medium = {
+		_nc = "#14161a",
+		base = "#16191e",
+		surface = "#181b21",
+		overlay = "#1d2127",
+		muted = "#525F66", -- borders, line numbers etc
+		subtle = "#918573", -- Comments
+		text = "#a69d91", -- Variables
+		-- Special
+		love = "#A16B68",
+		gold = "#99884D", -- strings/values
+		rose = "#895E5D", -- functions
+		pine = "#5A8090", -- keywords
+		foam = "#648190", -- typenames/namespaces
+		iris = "#93706C", -- macros
+		--Highlight
+		highlight_low = "#2D343E", -- Very subtle highlights
+		highlight_med = "#38414C", -- Visual mode
+		highlight_high = "#6B4A49", -- ??
+		none = "NONE",
+	},
+	-- TODO:
 	hard = {
 		_nc = "#16191E",
 		base = "#181B20",

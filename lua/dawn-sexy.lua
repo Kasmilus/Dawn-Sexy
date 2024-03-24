@@ -34,7 +34,7 @@ local function set_highlights()
 		["@method"] = { fg = palette.rose },
 		["@namespace"] = { link = "Include" },
 		["@number"] = { link = "Number" },
-		["@parameter"] = { fg = palette.iris, italic = styles.italic },
+		["@parameter"] = { fg = palette.text, italic = styles.italic },
 		["@preproc"] = { link = "PreProc" },
 		["@punctuation"] = { fg = palette.subtle },
 		["@punctuation.bracket"] = { link = "@punctuation" },
@@ -270,7 +270,7 @@ local function set_highlights()
 		--- Identifiers
 		["@variable"]                            = { fg = palette.text, italic = styles.italic },
 		["@variable.builtin"]                    = { fg = palette.love, bold = styles.bold },
-		["@variable.parameter"]                  = { fg = palette.iris, italic = styles.italic },
+		["@variable.parameter"]                  = { fg = palette.text, italic = styles.italic },
 		["@variable.member"]                     = { fg = palette.text },
 
 		["@constant"]                            = { fg = palette.gold },
@@ -523,7 +523,7 @@ local function set_highlights()
 
 		-- lukas-reineke/indent-blankline.nvim
 		IblIndent                                = { fg = palette.overlay },
-		IblScope                                 = { fg = palette.foam },
+		IblScope                                 = { fg = palette.muted },
 		IblWhitespace                            = { fg = palette.overlay },
 
 		-- hrsh7th/nvim-cmp
